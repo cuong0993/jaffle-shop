@@ -1,0 +1,14 @@
+config:
+    use_colors: True 
+default:
+  outputs:
+    dev:
+      type: postgres
+      threads: 1
+      host: ep-broad-bread-476827.ap-southeast-1.aws.neon.tech
+      port: 5432
+      user: "pte-test"
+      pass: ""
+      dbname: test
+      schema: dev
+  target: dev
