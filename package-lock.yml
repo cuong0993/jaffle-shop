@@ -7,4 +7,6 @@ packages:
     revision: d10124ad1ebde3a1a7f140e2616814229fab8bbd
   - package: bqbooster/dbt_bigquery_monitoring
     version: 0.10.3
-sha1_hash: 4f45fe703bec747c15296c1e6338bb5024a50c9d
+  - package: elementary-data/elementary
+    version: 0.16.1
+sha1_hash: 277840346bed9cef9bd2a0e519ab85f1bff1057e
