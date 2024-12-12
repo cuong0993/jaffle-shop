@@ -1,0 +1,9 @@
+config:
+    use_colors: True 
+default:
+  outputs:
+    dev:
+      type: duckdb
+      path: dev.duckdb
+      schema: dev
+  target: dev
